@@ -81,3 +81,10 @@ button.new-note-button span:hover {
 	color: #1D2020 !important;
 }
 
+div.CodeMirror span.cm-url {
+        color: #a6ffa6 !important;
+        opacity: 0.5;
+}
+div.CodeMirror span.cm-link-text {
+        color: #a6ffa6 !important;
+}
