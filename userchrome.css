@@ -17,29 +17,25 @@
   background-color: #77cc88 !important;
 }
 .folders .list-item-container:active {
-  background-color: #119955
- !important;
+  background-color: #119955 !important;
 }
 
 .folders.expanded > .list-item-container.selected,
 .tags > .list-item-container.selected {
-  background-color: #119955
- !important;
+  background-color: #119955 !important;
 }
 
 
 /* search icon */
 span.icon-search {
-	color: #119955
- !important;
+	color: #119955 !important;
 }
 span.icon-search:hover {
 	color: #77cc88 !important;
 }
 /* clear search icon */
 div.resizableLayoutItem.rli-noteList > div > div > div > div > div > button span {
-	color: #119955
- !important;
+	color: #119955 !important;
 }
 div.resizableLayoutItem.rli-noteList > div > div > div > div > div > button span:hover {
 	color: #77cc88 !important;
@@ -47,8 +43,7 @@ div.resizableLayoutItem.rli-noteList > div > div > div > div > div > button span
 
 /*search result button */
 div.resizableLayoutItem.rli-editor > div > div > div > div > button {
-	background-color: #119955
- !important;
+	background-color: #119955 !important;
 }
 div.resizableLayoutItem.rli-editor > div > div > div > div > button:hover {
 	background-color: #77cc88 !important;
@@ -57,8 +52,7 @@ div.resizableLayoutItem.rli-editor > div > div > div > div > button:hover {
 /* sort order buttons */
 button.sort-order-field-button span,
 button.sort-order-reverse-button span {
-	color: #119955
- !important;
+	color: #119955 !important;
 }
 button.sort-order-field-button span:hover,
 button.sort-order-reverse-button span:hover {
@@ -69,8 +63,12 @@ button.sort-order-reverse-button span:hover {
 /* new todo/note buttons */
 button.new-todo-button, 
 button.new-note-button {
-	background-color: #119955
- !important;
+	background-color: #119955 !important;
+}
+button.new-todo-button > span, 
+button.new-note-button > span{
+	background-color: #77cc88 !important;
+	color: #1D2020 !important;
 }
 button.new-todo-button:hover,
 button.new-note-button:hover {
@@ -82,9 +80,10 @@ button.new-note-button span:hover {
 }
 
 div.CodeMirror span.cm-url {
-        color: #a6ffa6 !important;
-        opacity: 0.5;
+	color: #a6ffa6 !important;
+	opacity: 0.5;
 }
 div.CodeMirror span.cm-link-text {
-        color: #a6ffa6 !important;
+	color: #a6ffa6 !important;
 }
+
