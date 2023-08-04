@@ -65,17 +65,17 @@ button.new-todo-button,
 button.new-note-button {
 	background-color: #119955 !important;
 }
-button.new-todo-button > span, 
-button.new-note-button > span{
-	background-color: #77cc88 !important;
-	color: #1D2020 !important;
-}
 button.new-todo-button:hover,
 button.new-note-button:hover {
 	background-color: #77cc88 !important;
 }
+button.new-todo-button > span, 
+button.new-note-button > span{
+	color: #1D2020 !important;
+}
 button.new-todo-button span:hover,
 button.new-note-button span:hover {
+	background-color: #77cc88 !important;
 	color: #1D2020 !important;
 }
 
