@@ -49,6 +49,14 @@ div.resizableLayoutItem.rli-editor > div > div > div > div > button:hover {
 	background-color: #77cc88 !important;
 }
 
+/*search close button */
+div.search-bar > div > button > span {
+	color: #119955 !important;
+}
+div.search-bar > div > button > span:hover {
+	color: #77cc88 !important;
+}
+
 /* sort order buttons */
 button.sort-order-field-button span,
 button.sort-order-reverse-button span {
@@ -78,6 +86,7 @@ button.new-note-button span:hover {
 	background-color: #77cc88 !important;
 	color: #1D2020 !important;
 }
+
 
 div.CodeMirror span.cm-url {
 	color: #a6ffa6 !important;
