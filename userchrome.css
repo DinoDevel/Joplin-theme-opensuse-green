@@ -98,3 +98,19 @@ div.CodeMirror span.cm-link-text {
 	color: #a6ffa6 !important;
 }
 
+.CodeMirror ::-webkit-scrollbar-track {
+  background-color: #080808; 
+}
+
+.CodeMirror ::-webkit-scrollbar {
+  width: 12px;
+}
+
+.CodeMirror ::-webkit-scrollbar-thumb {
+  height: 48px;
+  background: #404040;
+}
+.CodeMirror ::-webkit-scrollbar-thumb:hover {
+  background: #585858; 
+}
+
