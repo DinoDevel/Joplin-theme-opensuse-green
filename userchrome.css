@@ -89,7 +89,22 @@ button.new-note-button span:hover {
 	color: #1D2020 !important;
 }
 
+/* text-area search background */
+div.resizableLayoutItem.rli-editor > div > div > div > div:has(> div.note-search-bar) {
+    background-color: #2a2c32 !important;
+}
 
+/* text-area search input-field background */
+div.note-search-bar input {
+    background-color: #242424 !important; 
+}
+
+/* tag-bar */
+div.tag-bar {
+    background-color: #2a2c32 !important;
+}
+
+/* links */
 div.CodeMirror span.cm-url {
 	color: #a6ffa6 !important;
 	opacity: 0.5;
@@ -98,12 +113,13 @@ div.CodeMirror span.cm-link-text {
 	color: #a6ffa6 !important;
 }
 
+/* wider text-area scrollbar */
 .CodeMirror ::-webkit-scrollbar-track {
   background-color: #080808; 
 }
 
 .CodeMirror ::-webkit-scrollbar {
-  width: 12px;
+  width: 10px;
 }
 
 .CodeMirror ::-webkit-scrollbar-thumb {
