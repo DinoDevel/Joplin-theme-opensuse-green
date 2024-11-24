@@ -106,11 +106,18 @@ div.tag-bar {
 
 /* links */
 div.CodeMirror span.cm-url {
-	color: #a6ffa6 !important;
-	opacity: 0.5;
+	color: #77cc88 !important;
+/*	opacity: 0.5; */
 }
 div.CodeMirror span.cm-link-text {
-	color: #a6ffa6 !important;
+	color: #77cc88 !important;
+}
+div.CodeMirror span.cm-url span.tok-url{
+    color: #77cc88 !important;
+/*    opacity: 0.5; */
+}
+div.CodeMirror span.cm-link-text span.tok-url{
+    color: #77cc88 !important;
 }
 
 /* wider text-area scrollbar */
