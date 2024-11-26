@@ -24,10 +24,6 @@
   background-color: #119955 !important;
 }
 
-
-folder-and-tag-list
-
-
 /* search icon */
 span.icon-search {
 	color: #119955 !important;
@@ -104,6 +100,11 @@ div.tag-bar {
     background-color: #2a2c32 !important;
 }
 
+/* warning banner */
+div.warning-banner {
+    background-color: #995511 !important;
+}
+
 /* links */
 div.CodeMirror span.cm-url {
 	color: #77cc88 !important;
@@ -112,11 +113,11 @@ div.CodeMirror span.cm-url {
 div.CodeMirror span.cm-link-text {
 	color: #77cc88 !important;
 }
-div.CodeMirror span.cm-url span.tok-url{
+div.CodeMirror span.cm-url span.tok-url {
     color: #77cc88 !important;
 /*    opacity: 0.5; */
 }
-div.CodeMirror span.cm-link-text span.tok-url{
+div.CodeMirror span.cm-link-text span.tok-url {
     color: #77cc88 !important;
 }
 
@@ -124,11 +125,9 @@ div.CodeMirror span.cm-link-text span.tok-url{
 .CodeMirror ::-webkit-scrollbar-track {
   background-color: #080808; 
 }
-
 .CodeMirror ::-webkit-scrollbar {
   width: 10px;
 }
-
 .CodeMirror ::-webkit-scrollbar-thumb {
   height: 48px;
   background: #404040;
