@@ -108,14 +108,17 @@ div.warning-banner {
 /* links */
 div.CodeMirror span.cm-url {
 	color: #77cc88 !important;
-/*	opacity: 0.5; */
+	opacity: 1.0;
 }
 div.CodeMirror span.cm-link-text {
 	color: #77cc88 !important;
 }
+div.CodeMirror span.tok-link {
+    color: #77cc88 !important;
+}
 div.CodeMirror span.cm-url span.tok-url {
     color: #77cc88 !important;
-/*    opacity: 0.5; */
+    opacity: 1.0;
 }
 div.CodeMirror span.cm-link-text span.tok-url {
     color: #77cc88 !important;
