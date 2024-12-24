@@ -24,6 +24,17 @@
   background-color: #119955 !important;
 }
 
+/* notes list */
+
+
+.note-list-item > .content.-selected {
+    background-color: #119955 !important;
+}
+.note-list-item:hover {
+    background-color: #77cc88 !important;
+}
+
+
 /* search icon */
 span.icon-search {
 	color: #119955 !important;
