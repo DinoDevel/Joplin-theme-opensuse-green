@@ -96,6 +96,17 @@ button.new-note-button span:hover {
 	color: #1D2020 !important;
 }
 
+/* Search results note-name button */
+
+div.note-editor-wrapper > div > div > div > button {
+	background-color: #119955 !important;
+	color: #1D2020 !important;
+}
+div.note-editor-wrapper > div > div > div > button:hover {
+	background-color: #77cc88 !important;
+	color: #1D2020 !important;
+}
+
 /* text-area search background */
 div.resizableLayoutItem.rli-editor > div > div > div > div:has(> div.note-search-bar) {
     background-color: #2a2c32 !important;
